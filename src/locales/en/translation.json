@@ -1,0 +1,119 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "hero": {
+    "welcome": "Welcome to my world",
+    "hello": "Hello, I'm",
+    "my_name": "kongmeng thor",
+    "description":"Passionate software developer and architecture student blending structural precision with digital creativity to build high-performance, visually stunning web experiences.",
+    "download_cv": "Download CV",
+    "contact_me": "Contact Me"
+  },
+  "about": {
+    "title_1": "About",
+    "title_2": "Me",
+    "bio":"Currently, I am a 3-year student at the National University of Laos, Faculty of Natural Sciences, majoring in Website Development. I have a passion and skill set for Front-end development, focusing on creating modern and user-friendly interfaces. I am confident that my skills can definitely contribute effectively to this field.",
+    "year_learning" : "Years Learning",
+    "project": "Project Conplete",
+    "technologies": "Technologies Learned",
+    "interests": "Interests"
+  },
+  "skills": {
+    "title_1": "My",
+    "title_2": "Skills",
+    "subtitle": "My technical toolkit across frontend, backend, and professional design tools.",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "tools": "Tools"
+  },
+  "projects": {
+    "title_1": "Featured",
+    "title_2": "Projects",
+    "subtitle": "A selection of my most challenging and rewarding work.",
+    "live_demo": "Live Demo",
+    "source_code": "Source Code"
+  },
+  "experience": {
+    "title_1": "My",
+    "title_2": "Journey",
+    "subtitle": "The path of my growth and professional evolution.",
+    "list":[
+      
+      {
+        "year": "2025 - 2026",
+        "title": "Final Project II",
+        "project": "Dormitory Booking System",
+        "description": "Tech Stack: Next.js, Tailwind, Node.js, Express, MongoDB, PostgreSQL. Emphasize system design and separating code to keep it clean, easy to maintain, and ready for future development"
+      },
+      {
+      "year": "2025 - 2026",
+      "title": "Midtern Project II",
+      "project": "POS (Book-Selling) System Management",
+      "description": "Tech Stack: React, Tailwind CSS, Node.js, Express, MySQL. Utilized frameworks to accelerate development, implemented real-time interactions, and used APIs to connect and handle communication between the Frontend and Backend"
+    },
+    {
+      "year": "2024 - 2025",
+      "title": "Final Project I",
+      "project": "Water selling system",
+      "description": "Tech Stack: HTML, CSS, JavaScript,PHP, MySQL. Built using foundational concepts to understand how the system actually works in practice, and how real-world implementation differs from theory."
+    }
+    
+    ] 
+
+  },
+  "services": {
+    "title_1": "What I",
+    "title_2": "Offer",
+    "subtitle": "Professional services tailored to your digital needs.",
+    "list" : [
+    {
+      "title": "Web Development",
+      "description": "Building scalable, high-performance websites using the latest technologies.",
+      "icon": "Globe"
+    },
+    {
+      "title": "UI/UX Design",
+      "description": "Creating intuitive and visually stunning interfaces that prioritize the user.",
+      "icon": "Palette"
+    },
+    {
+      "title": "Frontend Development",
+      "description": "Translating complex designs into pixel-perfect, responsive code.",
+      "icon": "Code"
+    },
+    {
+      "title": "AI Integration",
+      "description": "Enhancing applications with intelligent AI capabilities and automation.",
+      "icon": "Cpu"
+    }
+  ]
+
+  },
+  "contact": {
+    "title_1": "Get In",
+    "title_2": "Touch",
+    "subtitle": "Have a project in mind or just want to say hi? I'd love to hear from you.",
+    "info_title": "Contact Information",
+    "email_label": "Email",
+    "phone_label": "Phone",
+    "location_label": "Location",
+    "location": "Dongdok, Xaythany, Vientiane Capital",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_name_placeholder": "John Doe",
+    "form_email_placeholder": "john@example.com",
+    "form_message_placeholder": "Your message here...",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Noto+Sans+Lao:wght@100..900&family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--theme-background);
+  --color-primary: var(--theme-primary);
+  --color-secondary: var(--theme-secondary);
+  --color-text-main: var(--theme-text-main);
+  --color-text-muted: var(--theme-text-muted);
+
+  --font-title: "Black Ops One", display;
+  --font-eng: "Puritan", sans-serif;
+  --font-lao: "Noto Sans Lao", sans-serif;
+}
+
+@layer base {
+  :root {
+    --theme-background: #F5F5F5;
+    --theme-primary: #22C55E;
+    --theme-secondary: #3B82F6;
+    --theme-text-main: #111827;
+    --theme-text-muted: #4B5563;
+  }
+
+  [data-theme="dark"] {
+    --theme-background: #0B1120;
+    --theme-text-main: #FFFFFF;
+    --theme-text-muted: #94A8B8;
+    --theme-primary: #22C55E;
+    --theme-secondary: #3B82F6;
+  }
+}
+
+/* Custom Utilities for Glassmorphism */
+@layer utilities {
+  .glass {
+    @apply bg-white/10 backdrop-blur-md border border-white/20 shadow-lg;
+  }
+}
